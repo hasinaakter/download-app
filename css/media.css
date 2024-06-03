@@ -1,0 +1,228 @@
+/*  Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* slider start */
+    .s_img img{
+        width: 80%;
+        padding:40px 0px;
+    }
+    .slider_text{
+        text-align: center;
+    }
+    .slider_text h1 {
+        font-size: 30px;
+    }
+    /* slider end */
+
+    /* feature start */
+    .hero-box-area {
+        padding-bottom: 60px;
+    }
+      .feature-img {
+        margin-bottom: 40px;
+        justify-content: center;
+        display: flex;
+            }
+      .feature-img img{
+        width: 80%;
+      }
+      
+    /* feature end */
+    /* core app start */
+    .hero-box{
+        padding-bottom: 20px;
+    }
+    .hero-box h5{
+
+        font-size: 17px;
+    }
+    .core-app-feature {
+        padding: 50px 0px;
+    }
+    .feature-img{
+        justify-content: center;
+        display: flex;
+        padding-bottom: 60px;
+        }
+    /* core end end */
+
+    /* Best Plan section start */
+    .c-person {
+        margin-bottom:20px;
+    }
+    .best-plan {
+        padding: 20px 10px;
+    }
+    .best-plan-header{
+        text-align: center !important;
+    }
+    .best-plan-header h2{
+     line-height: 36px;
+    }
+    /* best plan section end */
+    /* screen short start */
+    .screenshort-header{
+        padding: 30px 15px !important;
+    }
+    /* screen short end */
+
+
+    /* testimonial start */
+    .testimonial-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .testimonial-image {
+    margin-bottom: 10px;
+    }
+    /* testimonial end */
+
+    /* get the app */
+    .content-box{
+        text-align: center;
+    }
+    .content-box h2{
+        padding-top: 20px;
+    }
+    .btn-set a{
+        margin-bottom: 20px;
+    }
+    /*submit start */
+.subscribe {
+    padding: 80px 10px 0px;
+}
+  .c_input {
+    height: 40px;
+    margin-bottom: 16px;
+}
+.c_submit {
+    height: 40px;
+}
+/* end submit */
+/* footer */
+.footer-bg {
+    padding: 40px 0px !important;
+    
+}
+.footer-4{
+    text-align: center;
+}
+.footer-4 h4{
+    padding-bottom: 15px;
+
+}
+.footer_link {
+     justify-content: center; 
+}
+.about-newapp{
+    text-align: center;
+}
+/* copy right */
+.copy-right{
+    text-align: center;
+}
+.second_f {
+    padding: 0px 0px 30px;
+}
+/* feed back start */
+.feedback-header{
+    padding: 15px !important;
+
+}
+/* fedd back end */
+
+
+}
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*slider start*/
+    .s_img img{
+        width: 72%;
+    }
+    .slider_text{
+        text-align: center;
+    }
+    .slider_text h1 {
+        font-size: 40px;
+    }
+    /* slider end */
+
+    /* get the app */
+    .btn-set a{
+        margin-bottom: 10px;
+    }
+    /* subscribe */
+   .subscribe {
+    padding: 60px 0px 70px;
+    }   
+   .c_input {
+    height: 45px;
+    margin-bottom: 16px;
+    }
+    .c_submit {
+        height: 45px;
+    }
+    /* core app  feature */
+    .feature-img{
+    justify-content: center;
+    display: flex;
+    padding-bottom: 60px;
+    }
+    /* core app feature end */
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+/* header start */
+.meno ul li a {
+    font-size: 14px;
+}
+/* header end */
+
+ /*slider start*/
+.slider_text{
+    text-align: center;
+    font-size: 22px;
+}
+.slider_btn{
+    padding: 10px 50px !important;
+}
+/* slider end */
+/* video area */
+.video-area {
+    margin-bottom:-40px;
+}
+/* best plan section start */
+.best-plan {
+    padding: 80px 0px;
+    text-align: center;
+}
+.c-person{
+  margin-bottom: 30px;
+}
+.fw-bolder {
+    font-size: 32px !important;
+}
+
+/* best plan section end  */
+/* subscribe */
+.subscribe {
+    padding: 70px 0px 80px;
+ }
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+ }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+ }
+ /* Extra Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1400px) { 
+    
+ }
